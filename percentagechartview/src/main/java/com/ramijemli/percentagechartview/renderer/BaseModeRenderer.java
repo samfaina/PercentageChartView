@@ -392,7 +392,7 @@ public abstract class BaseModeRenderer {
                     .setAlignment(Layout.Alignment.ALIGN_NORMAL)
                     .setLineSpacing(0, 0)
                     .setJustificationMode(Layout.JUSTIFICATION_MODE_NONE)
-                    .setBreakStrategy(Layout.HYPHENATION_FREQUENCY_NONE)
+                    .setBreakStrategy(Layout.BREAK_STRATEGY_BALANCED)
                     .setIncludePad(false)
                     .build();
         } else {
